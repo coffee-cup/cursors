@@ -9,7 +9,9 @@
     "lint": "prettier --check . && eslint --ignore-path .gitignore .",
     "format": "prettier --write ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "copy-text-to-clipboard": "^3.0.1"
+  },
   "devDependencies": {
     "@sveltejs/adapter-node": "next",
     "@sveltejs/kit": "next",
